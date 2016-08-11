@@ -1,9 +1,9 @@
 #Cmx/Meraki Gateway#
 Cmx gateway service can be used to work with DevIot, supply the DevIot capability with read device location data, get the number of device in target area and so on
 
-Cmx gateway contain two sensors, one is the cmxarea sensor, this sensor can count all devices in target area. another sensor is cmxdevice, this sensor can which room contain target device. those sensors can be reused by different parameter, so this gateway can support multiple users
+Cmx/Meraki gateway contain two sensors, one is the cmxarea sensor, this sensor can count all devices in target area. another sensor is cmxdevice, this sensor can detect which room contain target device. before use those two sensors, please config it in DevIot by click the sensor icon. 
 
-you can from [here](https://developer.cisco.com/site/cmx-mobility-services/) to get more detail about CMX
+you can from [here](https://developer.cisco.com/site/cmx-mobility-services/) to get more detail about CMX API
 
 This code also can be as a sample code to show how to use the Gateway Service SDK, use it build a completed gateway service which can work with DevIot
 
@@ -28,7 +28,6 @@ This code also can be as a sample code to show how to use the Gateway Service SD
 1. This sample code base on the Python 2.7.10, please make sure your machine environment have installed [Python2.7](https://www.python.org/downloads/)
 2. This sample code use Cisco [cmx](https://developer.cisco.com/site/cmx-mobility-services/) api to count trace device,please make sure you have <br>
 Cisco cmx service or you can use cmx sandbox.
-3. You need meet all the [prerequisite](https://cto-github.cisco.com/tingxxu/iot-gateway/blob/master/README.md) of Gateway SDK
 
 ##How to use
 ###Use sample code directly
