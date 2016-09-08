@@ -33,7 +33,7 @@ class ServiceHelper:
             data = service_response['data']
             if isinstance(data, list):
                 return data
-            else:
+            elif data is not None:
                 return data["Locations"]["entries"]
         return None
 
